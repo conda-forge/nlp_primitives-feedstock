@@ -5,11 +5,13 @@ Home: https://github.com/FeatureLabs/nlp_primitives
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nlpfeed-feedstock/blob/master/LICENSE.txt)
 
 Summary: An open source python library with natural language processing primitives, intended for use with Featuretools.
 
+Development: https://github.com/FeatureLabs/nlp_primitives
 
+Documentation: https://github.com/FeatureLabs/nlp_primitives
 
 Current build status
 ====================
@@ -17,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10523&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nlp_primitives-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nlpfeed-feedstock?branchName=master">
       </a>
     </td>
   </tr>
