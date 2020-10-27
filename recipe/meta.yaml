@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: nlp_primitives
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/n/nlp-primitives/nlp_primitives-{{ version }}.tar.gz
-  sha256: 5f961272e851b22268c5412333b21cc9418e3239f9fb79fd2e8e76ad1fd0436e
+  sha256: e78e63fdec2750c3aeca2108307e8fb29d6729007d11c0b224640ea2ea7450cc
 
 build:
   number: 0
@@ -38,7 +38,7 @@ outputs:
         - tensorflow-hub >=0.4.0
       source_files:
         - nlp_primitives/*
-  
+
   - name: nlp-primitives-complete
     build:
       noarch: python
