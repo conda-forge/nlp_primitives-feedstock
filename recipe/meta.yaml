@@ -1,12 +1,12 @@
-{% set version = "1.1.0" %}
+{% set version = "2.0.0.dev0" %}
 
 package:
   name: nlp_primitives
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/n/nlp-primitives/nlp_primitives-{{ version }}.tar.gz
-  sha256: e78e63fdec2750c3aeca2108307e8fb29d6729007d11c0b224640ea2ea7450cc
+  url: https://test-files.pythonhosted.org/packages/97/2d/dca84fd129a97d247e60fc57bba4d408abec6fd9cfcba838b4f1cac9929c/nlp_primitives-2.0.0.dev0.tar.gz
+  sha256: 7f63f6b28dd82acd79fdc8efface92dc0fd5fc02937bcfb00a5e6036723e91c2
 
 build:
   number: 0
@@ -19,12 +19,12 @@ outputs:
     requirements:
       host:
         - pip
-        - python >=3.6
+        - python >=3.7.*
       run:
-        - python >=3.6
-        - numpy >=1.13.3
-        - pandas >=0.23.0
-        - featuretools >=0.20.0
+        - python >=3.7.*
+        - numpy >=1.17.5
+        - pandas >=1.3.0
+        - featuretools >=1.0.0
         - nltk >=3.4.4
         - scikit-learn >=0.20.0
     test:
