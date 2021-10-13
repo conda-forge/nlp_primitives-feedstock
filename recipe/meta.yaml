@@ -34,7 +34,7 @@ outputs:
         - nlp_primitives
       requires:
         - pytest >=4.4.1
-        - tensorflow >=1.14.0,<2.6.0
+        - tensorflow >=1.14.0
         - tensorflow-hub >=0.4.0
       source_files:
         - nlp_primitives/*
@@ -45,7 +45,7 @@ outputs:
     requirements:
       run:
         - {{ pin_subpackage('nlp-primitives', max_pin="x.x.x.x") }}
-        - tensorflow >=1.14.0,<2.6.0
+        - tensorflow >=1.14.0
         - tensorflow-hub >=0.4.0
     test:
       commands:
