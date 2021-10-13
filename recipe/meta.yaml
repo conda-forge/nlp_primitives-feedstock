@@ -39,23 +39,23 @@ outputs:
       source_files:
         - nlp_primitives/*
 
-  - name: nlp-primitives-complete
-    build:
-      noarch: python
-    requirements:
-      run:
-        - {{ pin_subpackage('nlp-primitives', max_pin="x.x.x.x") }}
-        - tensorflow >=1.14.0
-        - tensorflow-hub >=0.4.0
-    test:
-      commands:
-        - pytest --pyargs nlp_primitives
-      imports:
-        - nlp_primitives
-      requires:
-        - pytest >=4.4.1
-      source_files:
-        - nlp_primitives/*
+  # - name: nlp-primitives-complete
+  #   build:
+  #     noarch: python
+  #   requirements:
+  #     run:
+  #       - {{ pin_subpackage('nlp-primitives', max_pin="x.x.x.x") }}
+  #       - tensorflow >=1.14.0
+  #       - tensorflow-hub >=0.4.0
+  #   test:
+  #     commands:
+  #       - pytest --pyargs nlp_primitives
+  #     imports:
+  #       - nlp_primitives
+  #     requires:
+  #       - pytest >=4.4.1
+  #     source_files:
+  #       - nlp_primitives/*
 
 about:
   doc_url: https://github.com/FeatureLabs/nlp_primitives
