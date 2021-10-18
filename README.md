@@ -1,7 +1,7 @@
 About nlp_primitives
 ====================
 
-Home: https://github.com/FeatureLabs/nlp_primitives
+Home: https://github.com/alteryx/nlp_primitives
 
 Package license: BSD-3-Clause
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nlp_primitives-
 
 Summary: An open source python library with natural language processing primitives, intended for use with Featuretools.
 
-Development: https://github.com/FeatureLabs/nlp_primitives
+Development: https://github.com/alteryx/nlp_primitives
 
-Documentation: https://github.com/FeatureLabs/nlp_primitives
+Documentation: https://github.com/alteryx/nlp_primitives
 
 Current build status
 ====================
@@ -120,6 +120,14 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@chukarsten](https://github.com/chukarsten/)
+* [@davesque](https://github.com/davesque/)
+* [@dsherry](https://github.com/dsherry/)
+* [@eccabay](https://github.com/eccabay/)
+* [@gsheni](https://github.com/gsheni/)
+* [@jeff-hernandez](https://github.com/jeff-hernandez/)
 * [@rwedge](https://github.com/rwedge/)
+* [@tamargrey](https://github.com/tamargrey/)
 * [@thehomebrewnerd](https://github.com/thehomebrewnerd/)
+* [@tuethan1999](https://github.com/tuethan1999/)
 

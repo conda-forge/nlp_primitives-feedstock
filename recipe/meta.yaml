@@ -9,7 +9,7 @@ source:
   sha256: 909d1a6c8253aa69f08961f01825a6fc6591a9c49bc9f562d57b379ad9f88ed8
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: nlp-primitives
@@ -58,9 +58,9 @@ outputs:
         - nlp_primitives/*
 
 about:
-  doc_url: https://github.com/FeatureLabs/nlp_primitives
-  dev_url: https://github.com/FeatureLabs/nlp_primitives
-  home: https://github.com/FeatureLabs/nlp_primitives
+  doc_url: https://github.com/alteryx/nlp_primitives
+  dev_url: https://github.com/alteryx/nlp_primitives
+  home: https://github.com/alteryx/nlp_primitives
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -70,3 +70,11 @@ extra:
   recipe-maintainers:
     - thehomebrewnerd
     - rwedge
+    - tuethan1999
+    - tamargrey
+    - davesque
+    - jeff-hernandez
+    - gsheni
+    - chukarsten
+    - dsherry
+    - eccabay
