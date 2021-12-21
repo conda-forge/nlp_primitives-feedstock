@@ -1,15 +1,15 @@
-{% set version = "2.0.0" %}
+{% set version = "2.1.0.dev0" %}
 
 package:
   name: nlp_primitives
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/n/nlp-primitives/nlp_primitives-{{ version }}.tar.gz
-  sha256: 909d1a6c8253aa69f08961f01825a6fc6591a9c49bc9f562d57b379ad9f88ed8
+  url: https://test-files.pythonhosted.org/packages/0c/48/3e0d6fbc4e91b36e2d08c16a14182fdb77a15cb946cd1a971ea74c85d2fc/nlp_primitives-2.1.0.dev0.tar.gz
+  sha256: b38ba358e4c14ad5adcbacd3f0844a8e336ff8955e9446329aece9f4abbb2802
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: nlp-primitives
@@ -25,7 +25,7 @@ outputs:
         - numpy >=1.17.5
         - pandas >=1.3.0
         - featuretools >=1.0.0
-        - nltk >=3.4.4
+        - nltk >=3.4.5,<3.6.6
         - scikit-learn >=0.20.0
     test:
       commands:
@@ -34,7 +34,7 @@ outputs:
         - nlp_primitives
       requires:
         - pytest >=4.4.1
-        - tensorflow >=1.14.0,<2.6.0
+        - tensorflow >=1.14.0
         - tensorflow-hub >=0.4.0
       source_files:
         - nlp_primitives/*
@@ -45,7 +45,7 @@ outputs:
     requirements:
       run:
         - {{ pin_subpackage('nlp-primitives', max_pin="x.x.x.x") }}
-        - tensorflow >=1.14.0,<2.6.0
+        - tensorflow >=1.14.0
         - tensorflow-hub >=0.4.0
     test:
       commands:
