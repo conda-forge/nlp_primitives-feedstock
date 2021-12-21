@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: nlp_primitives
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/n/nlp-primitives/nlp_primitives-{{ version }}.tar.gz
-  sha256: 909d1a6c8253aa69f08961f01825a6fc6591a9c49bc9f562d57b379ad9f88ed8
+  sha256: 96b0857efced42f8111d7a5ef9a72062bd59026c0e5450c51ff6e09b2aa8995d
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: nlp-primitives
