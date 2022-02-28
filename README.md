@@ -19,7 +19,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10523&branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nlp_primitives-feedstock?branchName=master">
       </a>
     </td>
@@ -122,13 +122,12 @@ Feedstock Maintainers
 =====================
 
 * [@chukarsten](https://github.com/chukarsten/)
-* [@davesque](https://github.com/davesque/)
 * [@dsherry](https://github.com/dsherry/)
+* [@dvreed77](https://github.com/dvreed77/)
 * [@eccabay](https://github.com/eccabay/)
 * [@gsheni](https://github.com/gsheni/)
 * [@jeff-hernandez](https://github.com/jeff-hernandez/)
 * [@rwedge](https://github.com/rwedge/)
 * [@tamargrey](https://github.com/tamargrey/)
 * [@thehomebrewnerd](https://github.com/thehomebrewnerd/)
-* [@tuethan1999](https://github.com/tuethan1999/)
 
