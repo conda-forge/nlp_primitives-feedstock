@@ -9,7 +9,7 @@ source:
   sha256: f3aee2e7a1a701b792e008971dae207e80f24b2088f6846e6a834ac77ce67c85
 
 build:
-  number: 0
+  number: 1
   entry_points:
    - featuretools_primitives = nlp-primitives.nlp_primitives
      
