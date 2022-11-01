@@ -10,7 +10,9 @@ source:
 
 build:
   number: 0
-
+  entry_points:
+   - nlp-primitives = nlp_primitives
+     
 outputs:
   - name: nlp-primitives
     build:
