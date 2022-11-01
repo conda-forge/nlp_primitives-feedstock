@@ -31,8 +31,8 @@ outputs:
     test:
       commands:
         - pytest --pyargs nlp_primitives
-        - python -c "from featuretools.nlp_primitives import PolarityScore"
-        - python -c "from featuretools.nlp_primitives import DiversityScore"
+        - python -c "from featuretools.primitives import PolarityScore"
+        - python -c "from featuretools.primitives import DiversityScore"
       imports:
         - nlp_primitives
       requires:
