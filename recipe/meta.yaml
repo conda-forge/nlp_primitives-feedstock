@@ -11,7 +11,7 @@ source:
 build:
   number: 1
   entry_points:
-   - featuretools_primitives = nlp-primitives.nlp_primitives
+   - featuretools_primitives = nlp-primitives
      
 outputs:
   - name: nlp-primitives
