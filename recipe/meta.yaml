@@ -9,8 +9,7 @@ source:
   sha256: f3aee2e7a1a701b792e008971dae207e80f24b2088f6846e6a834ac77ce67c85
 
 build:
-  number: 0
-
+  number: 1
 outputs:
   - name: nlp-primitives
     build:
@@ -27,10 +26,12 @@ outputs:
         - featuretools >=1.5.0
         - nltk >=3.4.5
         - scikit-learn >=0.20.0
-        - woodwork >=0.8.1
+        - woodwork >=0.19.0,!= 0.20.0
     test:
       commands:
         - pytest --pyargs nlp_primitives
+        - python -c "from featuretools.primitives import PolarityScore"
+        - python -c "from featuretools.primitives import DiversityScore"
       imports:
         - nlp_primitives
       requires:
