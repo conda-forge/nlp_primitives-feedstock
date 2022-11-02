@@ -10,7 +10,6 @@ source:
 
 build:
   number: 1
-     
 outputs:
   - name: nlp-primitives
     build:
