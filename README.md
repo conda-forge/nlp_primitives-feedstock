@@ -1,11 +1,11 @@
-About nlp_primitives
-====================
+About nlp_primitives-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nlp_primitives-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/alteryx/nlp_primitives
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nlp_primitives-feedstock/blob/main/LICENSE.txt)
 
 Summary: An open source python library with natural language processing primitives, intended for use with Featuretools.
 
