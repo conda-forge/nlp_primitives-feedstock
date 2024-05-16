@@ -35,8 +35,7 @@ outputs:
         - nlp_primitives
       requires:
         - pytest >=7.1.2
-        - tensorflow >=2.8.0  # [arm64]
-        - tensorflow >=1.14.0  # [not arm64]
+        - tensorflow >=1.14.0, <2.16.0
         - tensorflow-hub >=0.4.0, <0.16.0
       source_files:
         - nlp_primitives/*
@@ -50,8 +49,7 @@ outputs:
     requirements:
       run:
         - {{ pin_subpackage('nlp-primitives', max_pin="x.x.x.x") }}
-        - tensorflow >=2.8.0  # [arm64]
-        - tensorflow >=1.14.0  # [not arm64]
+        - tensorflow >=1.14.0, <2.16.0
         - tensorflow-hub >=0.4.0, <0.16.0
     test:
       commands:
@@ -78,7 +76,6 @@ about:
 extra:
   recipe-maintainers:
     - thehomebrewnerd
-    - tamargrey
     - jeff-hernandez
     - dvreed77
     - chukarsten
