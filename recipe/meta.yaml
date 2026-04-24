@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/n/nlp-primitives/nlp_primitives-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/n/nlp-primitives/nlp_primitives-{{ version }}.tar.gz
   sha256: 765fa22dc51f2dcf62b22d2b3d6b209133631dce910f1aee60491348cef8d3e8
 
 build:
-  number: 0
+  number: 1
 outputs:
   - name: nlp-primitives
     build:
@@ -18,9 +18,9 @@ outputs:
     requirements:
       host:
         - pip
-        - python >=3.9.*
+        - python {{ python_min }}
       run:
-        - python >=3.9.*
+        - python >={{ python_min }}
         - numpy >=1.17.5
         - pandas >=1.3.0
         - featuretools >=1.5.0
@@ -37,6 +37,7 @@ outputs:
         - pytest >=7.1.2
         - tensorflow >=1.14.0, <2.16.0
         - tensorflow-hub >=0.4.0, <0.16.0
+        - python {{ python_min }}
       source_files:
         - nlp_primitives/*
         - pyproject.toml
@@ -58,6 +59,7 @@ outputs:
         - nlp_primitives
       requires:
         - pytest >=7.1.2
+        - python {{ python_min }}
       source_files:
         - nlp_primitives/*
         - pyproject.toml
